@@ -1,0 +1,22 @@
+{
+  "name": "gh-repomaker",
+  "version": "1.0.0",
+  "description": "A simple tool for creating new Gitub repositories from your command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "CLI"
+  ],
+  "author": "Advance Party <gil@theroyals.com.au> (http://advanceparty.com.au/)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2"
+  }
+}
